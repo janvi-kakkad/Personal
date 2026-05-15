@@ -175,7 +175,7 @@ function spawnConfetti(originX, originY) {
       if (nameClickCount === 3) {
         showToast(
           "💚",
-          "You really do love clicking his name, huh? 😂",
+          "You really do love clicking YOUR name, huh? 😂",
           3000
         );
         nameClickCount = 0;
