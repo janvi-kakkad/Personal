@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy 21st Birthday, Bhundeshwar 💚</title>
+  <meta name="description" content="A cinematic digital journey through our friendship — crafted with love by Podri." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Fira+Code:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+</head>
+
+<body>
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Particle Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ════════════════════════════════════
+       LOADING SCREEN
+       ════════════════════════════════════ -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-content">
+      <div class="loading-title" id="loadingTitle"></div>
+      <div class="loading-steps" id="loadingSteps">
+        <div class="loading-step" data-step="0">
+          <span class="check">✓</span> Loading 3 years of memories...
+        </div>
+        <div class="loading-step" data-step="1">
+          <span class="check">✓</span> Measuring bhund energy levels...
+        </div>
+        <div class="loading-step" data-step="2">
+          <span class="check">✓</span> Downloading lame joke database...
+        </div>
+        <div class="loading-step" data-step="3">
+          <span class="check">✓</span> Syncing late night conversations...
+        </div>
+        <div class="loading-step" data-step="4">
+          <span class="check">✓</span> Reloading our bhuinda bhuindi moments...
+        </div>
+      </div>
+      <div class="loading-bar-container">
+        <div class="loading-bar" id="loadingBar"></div>
+      </div>
+      <div class="loading-ready" id="loadingReady">Ready.</div>
+    </div>
+  </div>
+
+  <!-- ════════════════════════════════════
+       SECTION 1 — HERO
+       ════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-label">// a digital journey through our friendship</div>
+      <h1 class="hero-title">
+        Happy 21st Birthday,
+        <span class="hero-name" id="heroName">Hitesh</span>
+      </h1>
+      <p class="hero-subtitle">
+        3 years of chaos, lame jokes, late-night study sessions, bhuinda - bhuindi,
+        and a friendship that just keeps getting more crazy.
+      </p>
+      <p class="hero-by">— crafted with love by Raajmaata Bhundgami aka QUEEN💚</p>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>scroll down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       SECTION 2 — ORIGIN STORY
+       ════════════════════════════════════ -->
+  <section id="origin">
+    <div class="section-container">
+      <div class="reveal">
+        <div class="section-label">Chapter 01</div>
+        <h2 class="section-title">How It All Started</h2>
+        <p class="section-subtitle">
+          Same class. Same branch. Day one of college.
+          And yet somehow, we never knew we would grow this close
+        </p>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2023 — First Year</div>
+          <div class="timeline-title">Day One of College</div>
+          <p class="timeline-text">
+            Nirma University. CSE branch. Same classroom.
+            Two strangers sitting in the same lecture hall,
+            not knowing their lives were about to change forever.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot" style="background: var(--yellow);
+            box-shadow: 0 0 16px var(--yellow-glow);"></div>
+          <div class="timeline-year">The Legendary Moment</div>
+          <div class="timeline-title">
+            "Tame CSE ma cho?" 💀
+          </div>
+          <p class="timeline-text">
+            A college event. We'd been classmates for a week.
+            And I — Janvi, the genius — looked at you and asked,
+            "Tame CSE ma cho?" when we were literally in the same class.
+            The look on your face? Priceless. And that's how
+            this beautiful disaster began.
+            Again i have the bhundacity to ask "kayu division" and you reply calmly "k" 💀
+            and then it hit me how stupid I sounded 😂
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot" style="background: var(--peach);
+            box-shadow: 0 0 16px var(--peach-glow);"></div>
+          <div class="timeline-year">The Slow Bond</div>
+          <div class="timeline-title">
+            From Classmates to Best Friends
+          </div>
+          <p class="timeline-text">
+            Just daily conversations and non stop drama (kyunki hum dono drama queen hai)
+            that got longer, jokes that got weirder, and a bond
+            that grew stronger without either of us realizing it.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot" style="background: var(--lavender);
+            box-shadow: 0 0 16px var(--lavender-glow);"></div>
+          <div class="timeline-year">2025 — Present</div>
+          <div class="timeline-title">
+            The Unshakeable Duo
+          </div>
+          <p class="timeline-text">
+            Three years deep. Through exams, drama, late nights,
+            Numaish drama, and everything in between.
+            Podranaresh &amp; Podragami — a friendship that just hits
+            different.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       SECTION 3 — CHAOS CHRONICLES
+       ════════════════════════════════════ -->
+  <section id="chaos">
+    <div class="section-container">
+      <div class="reveal">
+        <div class="section-label">Chapter 02</div>
+        <h2 class="section-title">The Chaos</h2>
+      </div>
+
+      <div class="chaos-grid stagger-children">
+        <div class="memory-card">
+          <div class="memory-emoji">🎳</div>
+          <h3 class="memory-title">Bowling Before Doom</h3>
+          <p class="memory-text">
+            Soft Computing practical exam in 2 hours?
+            Perfect time for a bowling session. Priorities?
+            We don't know about question. Result? We survived
+            (technically survived to naa kevu joye pn toi fail to nathij thya 🤣) and now have a legendary story.
+            Atleast tara chokra ne kaik daring kevanu hase tari pase hummmhh
+          </p>
+        </div>
+
+        <div class="memory-card">
+          <div class="memory-emoji">👸</div>
+          <h3 class="memory-title">The Rupli Saga</h3>
+          <p class="memory-text">
+            Rupal Kapdi ma'am — our beloved prof — became
+            "Rupli" & "Rupjali" in our universe. And Hitesh's masterpiece?
+            "Rupli to mari queen che." 💀 The bhundacity?
+            haa hu to jal ma tarti maachli chu, queen to rupli chene hummmmhhh 😒
+          </p>
+        </div>
+
+        <div class="memory-card">
+          <div class="memory-emoji">😂</div>
+          <h3 class="memory-title">The Lame Joke Factory</h3>
+          <p class="memory-text">
+            Seriously what the hell was ruplicate and rak-saas 😂😂. You deliver
+            them with such confidence, and the groan that
+            follows is always louder than the laugh.
+          </p>
+        </div>
+
+        <div class="memory-card">
+          <div class="memory-emoji">💃</div>
+          <h3 class="memory-title">Girl's Favourite</h3>
+          <p class="memory-text">
+            We already have an entire list on our wa chat so refer to it.
+            Also mne khbr che tu tari priya behno drashti and dhruva ne to baujj miss karas
+            they are your TRUE SISTERS and FRIENDS and obiosuly i can't replace them. Also you have learned a lot of
+            maturity from them
+            Also preenci su kare?
+          </p>
+        </div>
+
+        <div class="memory-card">
+          <div class="memory-emoji">🏠</div>
+          <h3 class="memory-title">Tu kyaa mara ghare aavas ej</h3>
+          <p class="memory-text">
+            Seriously the podracity to say that "achaa tu kyaa aavas ej ghare". Literally roj tara ghare aavti and toi
+            bije divse to same dilouge. Another level of audacity - Amara ghare faavtu nai hoi ??!! 😒 Haa hu to roj
+            river side farva jaati ne tara ghare thodi aavti hummmmhhh !!
+          </p>
+        </div>
+
+        <div class="memory-card">
+          <div class="memory-emoji">📱</div>
+          <h3 class="memory-title">Late Night Study Calls</h3>
+          <p class="memory-text">
+            "Studying" = 20% actual studying, 80% talking
+            about life(bakajiki in short 🤣), complaining about assignments,
+            and sharing every problem we've ever had.
+            Best kind of study sessions.
+          </p>
+        </div>
+      </div>
+
+      <!-- GIF showcase -->
+      <div class="nickname-showcase reveal">
+        <h3 class="section-title" style="font-size: var(--size-3xl);">
+          Our Mood Board 😂
+        </h3>
+        <p class="section-subtitle" style="margin: 0 auto var(--space-lg);">
+          The GIFs that define us
+        </p>
+        <div class="chaos-grid" style="max-width: 700px; margin: 0 auto;">
+          <div class="memory-card" style="text-align:center; padding: var(--space-md);">
+            <img src="https://media.giphy.com/media/xTk9ZxIxAXjNF8KkoM/giphy.gif" alt="Angry Birds Hatchling"
+              style="width:100%; max-width:220px; border-radius:var(--radius-md); margin: 0 auto;" />
+            <p class="memory-text" style="margin-top: var(--space-sm); text-align:center;">
+              Me - when Hitesh cracks another lame joke
+            </p>
+          </div>
+          <div class="memory-card" style="text-align:center; padding: var(--space-md);">
+            <img src="https://media.tenor.com/WrFW0mz9QtIAAAAM/shy-bashful.gif" alt="Blushing Bird"
+              style="width:100%; max-width:220px; border-radius:var(--radius-md); margin: 0 auto;" />
+            <p class="memory-text" style="margin-top: var(--space-sm); text-align:center;">
+              Hitesh - when I call him Bhundeshwar in public
+            </p>
+          </div>
+
+          <div class="memory-card" style="text-align:center; padding: var(--space-md);">
+            <img
+              src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnFiN3phMG9seGM2eGVkZmp1bzlpZnFqZDh3amZydTZ1YTh5OXZwbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lz6971fkGSgCMOOncl/giphy.gif"
+              alt="Sad Cat" style="width:100%; max-width:220px; border-radius:var(--radius-md); margin: 0 auto;" />
+            <p class="memory-text" style="margin-top: var(--space-sm); text-align:center;">
+              Hitesh - when I tell him no to come to his home
+            </p>
+          </div>
+
+          <div class="memory-card" style="text-align:center; padding: var(--space-md);">
+            <img
+              src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2RjcHlybXk3d25qNHI5Mnk5M2QwNTZ0Nmt3aXI5bWN2czJ1bW5zOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d68K4eApIUez3rkmcV/giphy.gif"
+              alt="Sad Cat" style="width:100%; max-width:220px; border-radius:var(--radius-md); margin: 0 auto;" />
+            <p class="memory-text" style="margin-top: var(--space-sm); text-align:center;">
+              Hitesh - when I tell him something serious
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Nickname showcase -->
+      <div class="nickname-showcase reveal">
+        <h3 class="section-title" style="font-size: var(--size-3xl);">
+          The Name Evolution
+        </h3>
+        <p class="section-subtitle" style="margin: 0 auto var(--space-lg);">
+          Normal people use names. We use... whatever these are.
+        </p>
+        <div class="nickname-grid">
+          <span class="nickname-pill">Bhundeshwar</span>
+          <span class="nickname-pill">Podranaresh</span>
+          <span class="nickname-pill">Poidra</span>
+          <span class="nickname-pill">Podresh</span>
+          <span class="nickname-pill">Raani Podravati</span>
+          <span class="nickname-pill">Podramani</span>
+          <span class="nickname-pill">Rajpita Bhundeswar</span>
+          <span class="nickname-pill">Raajmata Bhundgami</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════
+       SECTION 5 — THE REAL HITESH
+       ════════════════════════════════════ -->
+  <section id="real-hitesh">
+    <div class="section-container">
+      <div class="reveal">
+        <div class="section-label">Chapter 03</div>
+        <h2 class="section-title">The Real Hitesh</h2>
+        <p class="section-subtitle">
+          Behind the lame jokes and the bhund energy,
+          there's someone genuinely extraordinary.
+        </p>
+      </div>
+
+      <div class="qualities-grid stagger-children">
+        <div class="quality-card">
+          <div class="quality-icon">💚</div>
+          <h3 class="quality-title">The Kindest Soul</h3>
+          <p class="quality-text">
+            The kindest person I have ever met in my entire
+            life. Not exaggerating. You have this warmth that
+            makes everyone around you feel safe and valued.
+          </p>
+        </div>
+        <div class="quality-card">
+          <div class="quality-icon">🤝</div>
+          <h3 class="quality-title">Always Shows Up</h3>
+          <p class="quality-text">
+            You never says no to helping — even in the worst
+            situations. When I'm at my lowest, You are the
+            first person there, no questions asked. I will always be grateful for
+            all the tasks you have done for me
+            (je technically marej karvana hata pn te tara kaam muki ne mane kari didha)
+          </p>
+        </div>
+        <div class="quality-card">
+          <div class="quality-icon">💚</div>
+          <h3 class="quality-title">Selfless Individual</h3>
+          <p class="quality-text">
+            One thing I've always admired about you is how selfless you are.
+            You give so much of yourself to the people you care about without ever expecting anything
+            in return. In a world where most people think only about themselves,
+            your ability to genuinely care for others is something truly rare.
+
+          </p>
+        </div>
+        <div class="quality-card">
+          <div class="quality-icon">🎵</div>
+          <h3 class="quality-title">Musical Genius</h3>
+          <p class="quality-text">
+            Tabla player. Keyboard player. Vice President of
+            Numaish. Future president
+            in the making. The talent is unreal. You truely excel in music just like in everything else
+          </p>
+        </div>
+        <div class="quality-card">
+          <div class="quality-icon">🙏</div>
+          <h3 class="quality-title">Deep Faith</h3>
+          <p class="quality-text">
+            Your spiritual connection with God is something
+            I truly admire. It keeps you grounded, humble,
+            and rooted. Your dedication to truely follow the rules and regulations
+            of your religion are inspiring
+          </p>
+        </div>
+        <div class="quality-card">
+          <div class="quality-icon">🌍</div>
+          <h3 class="quality-title">Down to Earth</h3>
+          <p class="quality-text">
+            Despite being talented, kind, and literally
+            the VP of a music band — you stay the most
+            humble, down-to-earth person in any room. I dont have
+            enough words to describe how kind and caring you are.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════
+       SECTION 6 — THE SONG
+       ════════════════════════════════════ -->
+  <section id="song">
+    <div class="song-bg"></div>
+    <div class="section-container">
+      <div class="reveal">
+        <div class="section-label" style="justify-content:center;">
+          Your Song - Kai pn vaat manavi hoi to direct aa lyrics aave
+        </div>
+      </div>
+      <p class="song-lyrics reveal">
+        "मैं भी नाचूँ मनाऊँ सोणे यार को,<br />
+        चलूँ मैं तेरी राह बुलेया"
+      </p>
+      <div class="song-annotation reveal">
+        Obviously manana to padega na... kaam hi aise karte
+        ho tum 😤 Lekin me nahi manungi kyunki tumhari queen
+        to Rupli hai na — usko manavo 👸😂
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ════════════════════════════════════
+       SECTION 8 — EMOTIONAL FINALE
+       ════════════════════════════════════ -->
+  <section id="finale">
+    <div class="finale-stars" id="finaleStars"></div>
+    <div class="finale-content reveal">
+      <div class="finale-emoji">💚</div>
+      <p class="finale-message">
+        Happy birthday to my bhund best friend.
+        Although bhund, you still know how to take care of relationships and maintain
+        a friendship like no one else can. I genuinely don't know what my college life
+        would have looked like if you weren't a part of it.
+        Somewhere between all the random conversations, stupid fights, late-night talks,
+        and endless laughter, you became one of the most important person in my life.
+        <br /><br />
+        There are very few people who leave a permanent mark on your heart just by being themselves —
+        and you are one of them. Your kindness is effortless, your presence feels safe,
+        and your loyalty is something people spend their whole lives searching for.
+        I don't think you even realize how much comfort and happiness you bring to the people
+        around you just by existing.
+        <br /><br />
+        Here's to the boy who plays tabla like a maestro, leads Numaish like a king,
+        cracks the worst jokes with the best smile, and somehow manages to be the most
+        genuine human being I've ever known. But beyond all of that, here's to the person
+        who listens without judgment, cares without conditions, and stays without needing a reason.
+        <br /><br />
+        No matter where life takes us after college, I know one thing for sure — you'll always
+        be one of the most special person of my life. Thank you for every memory,
+        every laughter, every moment of support, and every time you made difficult days feel lighter
+        without even trying.
+        <br /><br />
+        I hope life gives you everything your heart quietly deserves.
+        <br /><br />
+        And selfishly, I just hope no matter how much life changes, we never become strangers.
+        <br /><br />
+        Happy birthday, bhund. 🤍
+      </p>
+
+      <h2 class="finale-closing">
+        Thank you for existing,
+        <span class="highlight">Bhundeshwar</span>.
+      </h2>
+
+      <p class="finale-signature">
+        — With everything I've got, your Rajkumari Podravti 💚
+      </p>
+
+      <p class="finale-year">HAPPY 21ST · 2026</p>
+    </div>
+  </section>
+
+
+  <script src="js/particles.js"></script>
+  <script src="js/interactions.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
