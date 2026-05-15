@@ -77,7 +77,7 @@ function spawnConfetti(originX, originY) {
     piece.style.top = originY + "px";
     piece.style.background =
       CONFETTI_COLORS[
-        Math.floor(Math.random() * CONFETTI_COLORS.length)
+      Math.floor(Math.random() * CONFETTI_COLORS.length)
       ];
     piece.style.width = Math.random() * 8 + 4 + "px";
     piece.style.height = Math.random() * 8 + 4 + "px";
@@ -119,50 +119,6 @@ function spawnConfetti(originX, originY) {
 (function initEasterEggs() {
   "use strict";
 
-  /* ── Konami Code ── */
-  var KONAMI = [
-    "ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown",
-    "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight",
-    "b", "a",
-  ];
-  var konamiIndex = 0;
-
-  document.addEventListener("keydown", function (e) {
-    if (e.key === KONAMI[konamiIndex]) {
-      konamiIndex++;
-      if (konamiIndex === KONAMI.length) {
-        showToast(
-          "🏆",
-          "Achievement Unlocked: Bhundeshwar Secret Mode!",
-          4000
-        );
-        spawnConfetti(
-          window.innerWidth / 2,
-          window.innerHeight / 2
-        );
-        konamiIndex = 0;
-      }
-    } else {
-      konamiIndex = 0;
-    }
-  });
-
-  /* ── Press 'R' for Rupli ── */
-  document.addEventListener("keydown", function (e) {
-    if (e.key === "r" || e.key === "R") {
-      if (
-        document.activeElement.tagName !== "INPUT" &&
-        document.activeElement.tagName !== "TEXTAREA"
-      ) {
-        showToast(
-          "👸",
-          "Rupli mari queen che!",
-          3000
-        );
-      }
-    }
-  });
-
   /* ── Click on hero name for confetti ── */
   var heroName = document.getElementById("heroName");
   if (heroName) {
@@ -175,7 +131,7 @@ function spawnConfetti(originX, originY) {
       if (nameClickCount === 3) {
         showToast(
           "💚",
-          "You really do love clicking YOUR name, huh? 😂",
+          "You really do love clicking your name, huh? 😂",
           3000
         );
         nameClickCount = 0;
